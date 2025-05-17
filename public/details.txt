@@ -1,0 +1,34 @@
+Font Family Selection (Industry Best Practice)
+Use Case	Font Family Suggestion	Why?
+Headings	Poppins / Inter / Outfit	Clean, Modern, Sharp Look
+Paragraph/Text	Roboto / Inter / Open Sans	Readable, Clean Look
+Highlight Text / CTA	Same Family Bold Weight	Consistency
+
+
+Font Sizes & Weights (Responsive Production Level)
+Heading Levels
+Tag	Font Size (Desktop)	Weight	Mobile Size Suggestion
+h1	48px - 56px	700 / 800	36px - 40px
+h2	36px - 40px	700	28px - 32px
+h3	28px - 32px	600 / 700	24px - 28px
+h4	22px - 24px	600	20px
+h5	18px - 20px	600	18px
+h6	16px	500 / 600	16px
+
+
+Paragraph / Text
+Type	Font Size	Weight	Line Height	Use Case
+Body Large	18px	400 / 500	1.8	Hero Section text, Description
+Body Medium	16px	400	1.6	Normal Paragraph text
+Small Text	14px	400	1.4	Footer, Badge text, Secondary info
+Extra Small	12px	400	1.4	Labels, Button small text
+
+
+1. Heading Font:
+font-family: 'Poppins', sans-serif;
+
+
+2. Paragraph / Body Text:
+font-family: 'Roboto', sans-serif;
+
+

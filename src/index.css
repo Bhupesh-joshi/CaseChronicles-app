@@ -1,0 +1,37 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap'); */
+
+
+  :root {
+
+    --white-color: white;
+    --black-color: black;
+
+    --gray-color-navlink: #5b6780;
+    --main-bg: #F0F6FF;
+    --main-color-blue: oklch(0.488 0.243 264.376);
+    /* --heading-text: oklch(0.21 0.034 264.665); */
+    --gray-900: oklch(0.21 0.034 264.665);
+    --gray-800: oklch(0.279 0.041 260.031);
+    --gray-600: oklch(0.446 0.03 256.802);
+    --gray-500: oklch(0.554 0.046 257.417);
+    --gray-300: oklch(0.869 0.022 252.894);
+    --gray-200: oklch(0.928 0.006 264.531);
+    --gray-100: oklch(0.967 0.003 264.542);
+    /* --sub-heading-text: oklch(0.446 0.03 256.802); */
+    /* --gray-300: oklch(0.928 0.006 264.) */
+    --blue-900: oklch(0.379 0.146 265.522);
+    --blue-100: oklch(0.932 0.032 255.585);
+
+    --red-500: oklch(0.637 0.237 25.331);
+
+    --footer-bg: #F9FAFB;
+    --color-white: #ffffff;
+
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+  }
+
+
+
+
