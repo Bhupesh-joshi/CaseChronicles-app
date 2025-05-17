@@ -9,8 +9,8 @@ import Testimonials from '../components/Testimonials'
 import Newsletter from '../components/Newsletter'
 import FAQSection from '../components/FAQSection'
 
-// import image from '../assets/mainBanner.jpeg'
-import image from '../assets/mainBanner.jpg'
+import image from '../assets/mainBanner.jpeg'
+// import image from '../assets/mainBanner.jpg'
 
 const Home = () => {
   return (
