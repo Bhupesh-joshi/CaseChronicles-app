@@ -8,8 +8,8 @@ import { BrowserRouter } from 'react-router-dom'
 import { HashRouter as Router } from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
-  <Router>
+  <HashRouter>
     <App />
     <ToastContainer />
-  </Router>,
+  </HashRouter>,
 )
