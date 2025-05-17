@@ -9,6 +9,9 @@ import Testimonials from '../components/Testimonials'
 import Newsletter from '../components/Newsletter'
 import FAQSection from '../components/FAQSection'
 
+// import image from '../assets/mainBanner.jpeg'
+import image from '../assets/mainBanner.jpg'
+
 const Home = () => {
   return (
     <div>
@@ -21,7 +24,8 @@ const Home = () => {
         primaryBtnLink=""
         secondaryBtnText="Join Chronicles"
         secondaryBtnLink=""
-        imgSrc="/src/assets/mainBanner.jpg"
+        // imgSrc="/src/assets/mainBanner.jpg"
+        imgSrc={image}
       />
       <FeaturedCases />
       <WhyChooseUs 
