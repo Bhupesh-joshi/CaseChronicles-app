@@ -84,11 +84,11 @@ import {
 } from "react-icons/fa";
 
 const Sidebar = () => {
-  const [isCollapsed, setIsCollapsed] = useState(true); // collapsed by default
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   const handleLogout = () => {
-    localStorage.removeItem("username"); // Or any token/session key
-    window.location.href = "/"; // Redirect to home page
+    localStorage.removeItem("username"); 
+    window.location.href = "/CaseChronicles-app/"; // Redirect to home page
   };
 
   const navItems = [
