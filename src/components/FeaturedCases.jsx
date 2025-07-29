@@ -1,4 +1,5 @@
-import featuredCasesData from "../data/featuredCasesData";
+// import featuredCasesData from "../data/featuredCasesData";
+import {featuredCasesData} from "../constants.js";
 
 const FeaturedCases = () => {
     return (

@@ -1,9 +1,20 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
-import headerMenuItemsData from "../data/headerMenuItemsData";
+import { useLocation } from "react-router-dom"; // 👈 Step 1
+
+import TopBg from "../assets/top-header-bg/express_background.svg"
+
+// import headerMenuItemsData from "../data/headerMenuItemsData";
+import {headerMenuItemsData} from "../constants.js";
 
 const HeaderWithDropdown = () => {
+
+    const location = useLocation(); // 👈 Step 2
+    const isDashboardPage = location.pathname.startsWith("/dashboard"); // 👈 Step 3
+
+    // if (isDashboardPage) return null; // 👈 Step 4: Don't render on dashboard routes
+
     const [activeIndex, setActiveIndex] = useState(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const menuRef = useRef(null);
@@ -20,8 +31,12 @@ const HeaderWithDropdown = () => {
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
+    if (isDashboardPage) return null;
+
     return (
-        <header className="bg-[var(--black-color)] shadow-md">
+        // <header className="bg-[var(--black-color)] shadow-md">
+        // <header className="bg-[url('https://prod.adobeccstatic.com/top-app-bar/1.0/assets/express_background.svg')] shadow-md">
+        <header className="bg-[url('/top-header-bg/express_background.svg')] bg-cover bg-center shadow-md">
             <div ref={menuRef} className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4 h-[2.7rem] relative">
 
                 {/* Left side menu for Desktop */}

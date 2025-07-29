@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import faqData from '../data/faqData';
+// import faqData from '../data/faqData';
+import { faqData } from '../constants.js';
 
 const FAQSection = () => {
     const [openIndex, setOpenIndex] = useState(null);

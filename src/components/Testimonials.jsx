@@ -1,5 +1,6 @@
 import React from "react";
-import testimonialsData from "../data/testimonialsData";
+// import testimonialsData from "../data/testimonialsData";
+import {testimonialsData} from "../constants.js";
 
 const Testimonials = () => {
   return (

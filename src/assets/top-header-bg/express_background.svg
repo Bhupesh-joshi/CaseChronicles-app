@@ -1,0 +1,30 @@
+<svg id="uuid-4896c020-a647-4532-b9e2-c107dfa56cca" data-name="for production" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 56" preserveAspectRatio="none">
+  <defs>
+    <style>
+      .uuid-51d393a0-212a-44a8-9e82-3cc38130706a {
+        fill: url(#uuid-e02923e2-867b-4b1c-96a5-d52d548490ae);
+      }
+
+      .uuid-fc48d2a8-417b-42bf-a4f6-c256a6664df8 {
+        fill: url(#uuid-33c0fd31-fcff-497f-b660-1406456f86fe);
+      }
+
+      .uuid-41b54514-b824-4587-8dec-745075f46e9d {
+        fill: #110036;
+      }
+    </style>
+    <radialGradient id="uuid-33c0fd31-fcff-497f-b660-1406456f86fe" cx="709.656" cy="190.563" fx="709.656" fy="190.563" r="1" gradientTransform="translate(-93279.147 -350542.135) rotate(90) scale(494.235 -494.235)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#800081"/>
+      <stop offset="1" stop-color="#800081" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="uuid-e02923e2-867b-4b1c-96a5-d52d548490ae" cx="709.656" cy="190.562" fx="709.656" fy="190.562" r="1" gradientTransform="translate(-93559.438 -350542.135) rotate(90) scale(494.235 -493.763)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3236a8"/>
+      <stop offset="1" stop-color="#3236a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect class="uuid-41b54514-b824-4587-8dec-745075f46e9d" width="1440" height="56"/>
+  <path class="uuid-fc48d2a8-417b-42bf-a4f6-c256a6664df8" d="M1358.365,0h-371.346c7.773,18.133,14.492,36.825,20.083,56h371.365c-5.596-19.175-12.322-37.867-20.102-56Z"/>
+  <path class="uuid-51d393a0-212a-44a8-9e82-3cc38130706a" d="M79.097,0c-7.773,18.133-14.492,36.825-20.083,56h370.459c5.596-19.175,12.322-37.867,20.102-56H79.097Z"/>
+  <path class="uuid-fc48d2a8-417b-42bf-a4f6-c256a6664df8" d="M449.575,0c-7.78,18.133-14.506,36.825-20.102,56h577.628c-5.591-19.175-12.31-37.867-20.083-56H449.575Z"/>
+  <path class="uuid-51d393a0-212a-44a8-9e82-3cc38130706a" d="M449.575,0c-7.78,18.133-14.506,36.825-20.102,56h577.628c-5.591-19.175-12.31-37.867-20.083-56H449.575Z"/>
+</svg>
