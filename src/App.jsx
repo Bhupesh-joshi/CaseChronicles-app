@@ -65,14 +65,31 @@ import Login from './components/loginPage/Login'
 import Signup from './components/signupPage/Signup'
 import NotFound from './components/notFound/NotFound'
 import Footer from './components/footer/Footer'
-import WhoCanSubmitPage from './components/whoCanSubmitPage/WhoCanSubmitPage'
 
+// Top Header Links
+import WhoCanSubmitPage from './components/topHeaderPages/whoCanSubmitPage/WhoCanSubmitPage'
+import SubmitEssentialsPage from './components/topHeaderPages/SubmitEssentialsPage/SubmitEssentialsPage'
+import SubmitGuidelinesPage from './components/topHeaderPages/SubmitGuidelinesPage/SubmitGuidelinesPage'
+import BenifitToTheReshearchersPage from './components/topHeaderPages/BenifitToTheReshearchers/BenifitToTheReshearchersPage'
+import VisionaryLeadershipPage from './components/topHeaderPages/VisionaryLeadershipPage/VisionaryLeadershipPage'
+import CeoMessagePage from './components/topHeaderPages/CeoMessagePage/CeoMessagePage'
+import BehindTheScenesStrategyPage from './components/topHeaderPages/behindTheScenesStrategyPage/BehindTheScenesStrategyPage'
+import CommitmentToEducationPage from './components/topHeaderPages/commitmentToEducationPage/commitmentToEducationPage'
+import DiverseTeamOfExpertsPage from './components/topHeaderPages/DiverseTeamOfExpertsPage/DiverseTeamOfExpertsPage'
+import InnovationDrivenCulturePage from './components/topHeaderPages/InnovationDrivenCulturePage/InnovationDrivenCulturePage'
+import MeetTheDevelopersPage from './components/topHeaderPages/MeetTheDevelopersPage/MeetTheDevelopersPage'
+import StoryOfOurJourneyPage from './components/topHeaderPages/StoryOfOurJourneyPage/StoryOfOurJourneyPage'
+import OurMissionAndVisionPage from './components/topHeaderPages/OurMissionAndVisionPage/OurMissionAndVisionPage'
+import MeetWithTheCEOPage from './components/topHeaderPages/MeetWithTheCEOPage/MeetWithTheCEOPage'
+import AboutCaseChroniclesPage from './components/topHeaderPages/AboutCaseChroniclesPage/AboutCaseChroniclesPage'
+
+// Authentication PopUp
 import AuthPopup from './components/AuthPopup'
 
-import Sidebar from "./components/dashboard/components/Sidebar";
-import { Outlet } from "react-router-dom";
+// import Sidebar from "./components/dashboard/components/Sidebar";
+// import { Outlet } from "react-router-dom";
 
-
+// Sidebar Pages
 import Dashboard from './components/dashboard/Dashboard';
 import DashboardHome from './components/dashboard/pages/DashboardHome';
 import AllCases from './components/dashboard/pages/AllCases';
@@ -103,20 +120,25 @@ function App() {
 
       {showPopup && <AuthPopup onClose={() => setShowPopup(false)} />}
 
-      {/* <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/Login' element={<Login setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path='/Signup' element={<Signup setIsLoggedIn={setIsLoggedIn} />} />
-        <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='/WhoCanSubmitPage' element={<WhoCanSubmitPage />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes> */}
-
       <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/Login' element={<Login setIsLoggedIn={setIsLoggedIn} />} />
   <Route path='/Signup' element={<Signup setIsLoggedIn={setIsLoggedIn} />} />
-  <Route path='/WhoCanSubmitPage' element={<WhoCanSubmitPage />} />
+  <Route path='/Who-Can-Submit-Page' element={<WhoCanSubmitPage />} />
+  <Route path='/submit-essentials' element={<SubmitEssentialsPage />} />
+  <Route path='/submit-guidelines' element={<SubmitGuidelinesPage />} />
+  <Route path='/benifit-reshearchers' element={<BenifitToTheReshearchersPage />} />
+  <Route path='/visionary-leadership' element={<VisionaryLeadershipPage />} />
+  <Route path='/ceo-message' element={<CeoMessagePage />} />
+  <Route path='/behind-the-scenes-strategy' element={<BehindTheScenesStrategyPage />} />
+  <Route path='/commitment-to-education' element={<CommitmentToEducationPage />} />
+  <Route path='/diverse-team-of-experts' element={<DiverseTeamOfExpertsPage />} />
+  <Route path='/innovation-driven-culture' element={<InnovationDrivenCulturePage />} />
+  <Route path='/meet-the-developers' element={<MeetTheDevelopersPage />} />
+  <Route path='/story-of-our-journey' element={<StoryOfOurJourneyPage />} />
+  <Route path='/our-mission-and-Vision' element={<OurMissionAndVisionPage />} />
+  <Route path='/meet-with-the-ceo' element={<MeetWithTheCEOPage />} />
+  <Route path='/about-casechronicles' element={<AboutCaseChroniclesPage />} />
 
   {/* Dashboard with Sidebar layout */}
   <Route path='/dashboard' element={<Dashboard />}>

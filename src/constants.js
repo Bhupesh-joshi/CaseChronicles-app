@@ -248,37 +248,36 @@ export const headerMenuItemsData = [
     {
         title: "Write Cases",
         dropdown: [
-            { label: "Who can submit ?", link: "/WhoCanSubmitPage" },
-            { label: "Submit essentials", link: "#" },
-            { label: "Submit guidelines...", link: "#" },
-            { label: "Benifit to the reshearchers", link: "#" }
+            { label: "Who can submit ?", link: "/Who-Can-Submit-Page" },
+            { label: "Submit essentials", link: "/submit-essentials" },
+            { label: "Submit guidelines...", link: "/submit-guidelines" },
+            { label: "Benifit to the reshearchers", link: "/benifit-reshearchers" }
         ],
     },
     {
         title: "Join Chronicles",
         dropdown: [
-            { label: "Visionary leadership insights", link: "#" },
-            { label: "CEO's message to learners", link: "#" },
-            { label: "Behind the scenes strategy", link: "#" },
-            { label: "Commitment to education", link: "#" }
+            { label: "Visionary leadership insights", link: "/visionary-leadership" },
+            { label: "CEO's message to learners", link: "/ceo-message" },
+            { label: "Behind the scenes strategy", link: "/behind-the-scenes-strategy" },
+            { label: "Commitment to education", link: "/commitment-to-education" }
         ],
     },
     {
         title: "Meet with Team",
         dropdown: [
-            { label: "Diverse team of experts", link: "#" },
-            { label: "Innovation-driven culture", link: "#" },
-            { label: "Meet the developers", link: "#" },
-            { label: "Story of our journey", link: "#" }
+            { label: "Diverse team of experts", link: "/diverse-team-of-experts" },
+            { label: "Innovation-driven culture", link: "/innovation-driven-culture" },
+            { label: "Meet the developers", link: "/meet-the-developers" },
+            { label: "Story of our journey", link: "/story-of-our-journey" }
         ],
     },
     {
         title: "About Us",
         dropdown: [
-            { label: "Our mission and vision", link: "#" },
-            { label: "Meet with the CEO", link: "#" },
-            { label: "About CaseChronicles", link: "#" },
-            { label: "Meet with Team", link: "#" }
+            { label: "Our mission and vision", link: "/our-mission-and-Vision" },
+            { label: "Meet with the CEO", link: "/meet-with-the-ceo" },
+            { label: "About CaseChronicles", link: "/about-casechronicles" }
         ],
     },
 ];

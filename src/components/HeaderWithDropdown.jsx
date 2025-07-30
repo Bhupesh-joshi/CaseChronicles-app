@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
 import { useLocation } from "react-router-dom"; // 👈 Step 1
 
-import TopBg from "../assets/top-header-bg/express_background.svg"
+// import TopBg from "../assets/top-header-bg/express_background.svg"
 
 // import headerMenuItemsData from "../data/headerMenuItemsData";
 import {headerMenuItemsData} from "../constants.js";
