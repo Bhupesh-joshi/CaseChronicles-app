@@ -5,7 +5,7 @@ const initiatives = [
     title: "Interactive Case Simulations",
     description:
       "We developed gamified, interactive case simulations now used in 30+ B-schools worldwide.",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "#",
     cta: "View Simulation"
   },
@@ -13,7 +13,7 @@ const initiatives = [
     title: "Co-Creation Platform",
     description:
       "Launched a real-time case co-creation platform, enabling academics and students to build cases together.",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://images.pexels.com/photos/4144975/pexels-photo-4144975.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "#",
     cta: "Explore Platform"
   },
@@ -21,7 +21,7 @@ const initiatives = [
     title: "AI-Powered Content Suggestions",
     description:
       "Built an AI system that recommends cases based on learner behavior and previous interests.",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://media.istockphoto.com/id/2206081077/photo/businessman-touch-virtual-screen-to-operate-artificial-intelligence-technology-to-generated.jpg?b=1&s=612x612&w=0&k=20&c=vXogYLe_gPeHAQ9-L7bGdwv1Nto2xaBH8H26ZZp5uTU=",
     link: "#",
     cta: "See How It Works"
   }

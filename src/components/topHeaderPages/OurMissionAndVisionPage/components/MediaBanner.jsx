@@ -11,7 +11,7 @@ const MediaBanner = () => {
         loop
         playsInline
       >
-        <source src="https://cdn.pixabay.com/video/2024/02/22/201730-917489786_large.mp4" type="video/mp4" />
+        <source src="https://youtu.be/eflKQbKPGo0?si=a3ohg4jLttligrFr" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

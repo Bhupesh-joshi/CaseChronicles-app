@@ -12,7 +12,7 @@ const AboutCEO = () => {
           {/* CEO Image */}
           <div className="flex-shrink-0">
             <img
-              src="https://via.placeholder.com/300x350.png?text=Bhupesh+Joshi"
+              src="https://yt3.googleusercontent.com/TpJkSGUO0yaLKOiJQ6zM3Tir-Cd6uj9SkEtTz8I-X5_lI_EED9AbAQV9uyql7N5Ohudef4vMhA=s160-c-k-c0x00ffffff-no-rj"
               alt="Bhupesh Joshi"
               className="w-72 h-auto rounded-2xl shadow-md object-cover"
             />

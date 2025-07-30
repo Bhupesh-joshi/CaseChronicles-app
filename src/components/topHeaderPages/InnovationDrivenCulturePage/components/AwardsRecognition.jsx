@@ -4,18 +4,18 @@ const awards = [
   {
     title: "Digital Innovation in Education",
     description: "Shortlisted for ‘Digital Innovation in Education’ 2024",
-    logo: "https://via.placeholder.com/60x60?text=EduAward",
+    logo: "https://images.pexels.com/photos/9783353/pexels-photo-9783353.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     title: "XYZ Journal Recognition",
     description:
       "Recognized by XYZ Journal for transforming case research methodology",
-    logo: "https://via.placeholder.com/60x60?text=XYZ",
+    logo: "https://images.pexels.com/photos/7688174/pexels-photo-7688174.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     title: "Top EdTech Initiative",
     description: "Top 10 finalist in Global EdTech Impact Awards 2023",
-    logo: "https://via.placeholder.com/60x60?text=EdTech",
+    logo: "https://media.istockphoto.com/id/1660945979/photo/edtech-education-technology-distance-learning-online-concept.jpg?b=1&s=612x612&w=0&k=20&c=WSRCg7AzzA5JvY2Db-eeVQBTOaSVYK0LyuSNtovF6Dk=",
   },
 ];
 

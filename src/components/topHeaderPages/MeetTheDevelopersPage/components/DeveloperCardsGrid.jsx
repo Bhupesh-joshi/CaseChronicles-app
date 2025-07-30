@@ -5,7 +5,7 @@ const developers = [
   {
     name: "Bhupesh Joshi",
     role: "Frontend Developer",
-    image: "https://via.placeholder.com/150", // replace with real image
+    image: "https://yt3.googleusercontent.com/TpJkSGUO0yaLKOiJQ6zM3Tir-Cd6uj9SkEtTz8I-X5_lI_EED9AbAQV9uyql7N5Ohudef4vMhA=s160-c-k-c0x00ffffff-no-rj", // replace with real image
     github: "https://github.com/bhupesh-joshi",
     linkedin: "https://linkedin.com/in/bhupesh-joshi",
     quote: "Turning ideas into elegant UI magic ✨",
@@ -13,7 +13,7 @@ const developers = [
   {
     name: "Aarav Sharma",
     role: "Backend Developer",
-    image: "https://via.placeholder.com/150",
+    image: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600",
     github: "https://github.com/aarav-dev",
     linkedin: "https://linkedin.com/in/aarav-sharma",
     quote: "APIs, servers & logic—my playground 🛠️",
@@ -21,7 +21,7 @@ const developers = [
   {
     name: "Sneha Verma",
     role: "Full Stack Developer",
-    image: "https://via.placeholder.com/150",
+    image: "https://images.pexels.com/photos/33207994/pexels-photo-33207994/free-photo-of-young-woman-in-denim-during-sunset-outdoors.jpeg?auto=compress&cs=tinysrgb&w=600",
     github: "https://github.com/sneha-verma",
     linkedin: "https://linkedin.com/in/sneha-verma",
     quote: "Building from database to browser 🌐",

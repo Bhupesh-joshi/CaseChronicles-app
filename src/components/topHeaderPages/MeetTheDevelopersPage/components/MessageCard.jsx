@@ -8,7 +8,7 @@ const MessageCard = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="max-w-4xl mx-auto mt-16 bg-gradient-to-br from-[#1f1c2c] to-[#928DAB] p-6 md:p-10 rounded-3xl shadow-2xl text-white relative overflow-hidden"
+      className="max-w-4xl mx-auto mt-16 bg-gradient-to-r from-purple-600 via-red-500 to-yellow-400 p-6 md:p-10 rounded-3xl shadow-2xl text-white relative overflow-hidden"
     >
       {/* Decorative Gradient Blur */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-pink-500 blur-[100px] opacity-30 -z-10"></div>
@@ -17,7 +17,7 @@ const MessageCard = () => {
       {/* Profile Section */}
       <div className="flex flex-col md:flex-row items-center gap-6">
         <img
-          src="https://avatars.githubusercontent.com/u/105572626?v=4" // Replace with your own image if needed
+          src="https://yt3.googleusercontent.com/TpJkSGUO0yaLKOiJQ6zM3Tir-Cd6uj9SkEtTz8I-X5_lI_EED9AbAQV9uyql7N5Ohudef4vMhA=s160-c-k-c0x00ffffff-no-rj" // Replace with your own image if needed
           alt="Bhupesh Joshi"
           className="w-28 h-28 rounded-full object-cover border-4 border-white shadow-md"
         />

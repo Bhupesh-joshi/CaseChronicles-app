@@ -37,7 +37,7 @@ const HeroSection = () => {
       {/* CEO Image */}
       <div className="w-full md:w-1/3 flex justify-center">
         <img
-          src="/ceo.jpg" // 🖼 Replace with your actual image path
+          src="https://yt3.googleusercontent.com/TpJkSGUO0yaLKOiJQ6zM3Tir-Cd6uj9SkEtTz8I-X5_lI_EED9AbAQV9uyql7N5Ohudef4vMhA=s160-c-k-c0x00ffffff-no-rj" // 🖼 Replace with your actual image path
           alt="Bhupesh Joshi"
           className="rounded-2xl shadow-lg w-64 h-64 object-cover"
         />

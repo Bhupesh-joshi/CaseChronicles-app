@@ -18,7 +18,7 @@ const ThankYouSection = () => {
       {/* Avatar */}
       <div className="flex justify-center mb-4">
         <img
-          src="https://i.ibb.co/Sd1Y4p4/bhupesh-avatar.jpg"
+          src="https://yt3.googleusercontent.com/TpJkSGUO0yaLKOiJQ6zM3Tir-Cd6uj9SkEtTz8I-X5_lI_EED9AbAQV9uyql7N5Ohudef4vMhA=s160-c-k-c0x00ffffff-no-rj"
           alt="Bhupesh Joshi"
           className="w-24 h-24 rounded-full border-4 border-white shadow-md"
         />

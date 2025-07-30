@@ -2,23 +2,23 @@ import React, { useState } from "react";
 
 const teamData = {
   "Leadership Team": [
-    { name: "Amit Sharma", role: "Founder & CEO", img: "https://via.placeholder.com/150" },
-    { name: "Ritika Rao", role: "Director of Strategy", img: "https://via.placeholder.com/150" },
+    { name: "Amit Sharma", role: "Founder & CEO", img: "https://images.pexels.com/photos/2102415/pexels-photo-2102415.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Ritika Rao", role: "Director of Strategy", img: "https://images.pexels.com/photos/1181280/pexels-photo-1181280.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
   "Medical Experts": [
-    { name: "Dr. Neha Verma", role: "Pediatrician", img: "https://via.placeholder.com/150" },
+    { name: "Dr. Neha Verma", role: "Pediatrician", img: "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
   "Education Specialists": [
-    { name: "Rohit Bansal", role: "Curriculum Designer", img: "https://via.placeholder.com/150" },
+    { name: "Rohit Bansal", role: "Curriculum Designer", img: "https://images.pexels.com/photos/3201630/pexels-photo-3201630.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
   "Outreach Coordinators": [
-    { name: "Anjali Singh", role: "Community Lead", img: "https://via.placeholder.com/150" },
+    { name: "Anjali Singh", role: "Community Lead", img: "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
   "Volunteers": [
-    { name: "Karan Mehta", role: "Field Volunteer", img: "https://via.placeholder.com/150" },
+    { name: "Karan Mehta", role: "Field Volunteer", img: "https://images.pexels.com/photos/3201580/pexels-photo-3201580.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
   "Advisors": [
-    { name: "Dr. Meenakshi Pillai", role: "Advisor - Policy", img: "https://via.placeholder.com/150" },
+    { name: "Dr. Meenakshi Pillai", role: "Advisor - Policy", img: "https://images.pexels.com/photos/1181292/pexels-photo-1181292.jpeg?auto=compress&cs=tinysrgb&w=600" },
   ],
 };
 

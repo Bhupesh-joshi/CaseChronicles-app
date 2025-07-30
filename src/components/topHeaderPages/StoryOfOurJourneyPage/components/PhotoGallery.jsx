@@ -2,19 +2,19 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "https://via.placeholder.com/400x300?text=Early+Design",
+    src: "https://images.pexels.com/photos/1049317/pexels-photo-1049317.jpeg?auto=compress&cs=tinysrgb&w=600",
     alt: "Early Design",
   },
   {
-    src: "https://via.placeholder.com/400x300?text=Coding+Process",
+    src: "https://images.pexels.com/photos/6518877/pexels-photo-6518877.jpeg?auto=compress&cs=tinysrgb&w=600",
     alt: "Coding Process",
   },
   {
-    src: "https://via.placeholder.com/400x300?text=First+Version",
+    src: "https://images.pexels.com/photos/6518895/pexels-photo-6518895.jpeg?auto=compress&cs=tinysrgb&w=600",
     alt: "First Version of Site",
   },
   {
-    src: "https://via.placeholder.com/400x300?text=UI+Mockup",
+    src: "https://images.pexels.com/photos/6518858/pexels-photo-6518858.jpeg?auto=compress&cs=tinysrgb&w=600",
     alt: "UI Design Draft",
   },
 ];
